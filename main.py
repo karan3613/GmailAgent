@@ -324,7 +324,7 @@ def main():
                     st.success(f"Found {len(emails)} emails from the last 24 hours.")
 
                     # Initialize categorizer
-                    categorizer = EmailCategorizer("AIzaSyAeu5xUWvnXP3PtpE6t70psSD9WvvV2Y_g")
+                    categorizer = EmailCategorizer("")
 
                     # Categorize emails
                     categorized_emails = {0: [], 1: [], 2: [], -1: []}
