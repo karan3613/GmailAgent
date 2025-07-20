@@ -1,5 +1,8 @@
 import streamlit as st
 
+from email_categorizer import EmailCategorizer
+from gmail_processor import GmailProcessor
+
 # Configure the page
 st.set_page_config(
     page_title="Gmail Email Categorizer",
